@@ -15,6 +15,7 @@ Call the API using these endpoints:
 
 Path | HTTP Verb | Action
 --- | --- | ---
+/search | GET | index
 /search/person/:name | GET |
 /search/address/:postcode | GET |
 /search/house/:houseName | GET |
