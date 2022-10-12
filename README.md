@@ -25,7 +25,10 @@ Path | HTTP Verb | Action
 
 ## Examples for response:
   It response in json format:
+  
+  
   1- Req: get(/search/person/:name)
+  
      Res: {
             name: "Micheal",
             age: 23,
@@ -33,7 +36,10 @@ Path | HTTP Verb | Action
             postcode: "2xb 11wr"
           }
           
+          
+          
    2- Req: get(search/address/:postcode)
+   
       Res: {
               buildingName: "New Court",
               buildingNumber: 23,
